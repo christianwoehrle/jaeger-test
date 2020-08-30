@@ -1,15 +1,15 @@
-# Sample for using Jaeger with Go
+## jaeger sample with go
 
 * creates spans
-* porpagetes spans via remote calls
+* propagates spans via remote calls
 * logs events to jaeger
 * emits metrics
 
 
-## Setup
+## setup
 
-### start cluster
-first start kind with a local registry for faster build/deployment cycles
+### start k8s-cluster
+start kind with a local registry for faster build/deployment cycles
 
 see https://raw.githubusercontent.com/tilt-dev/kind-local/master/kind-with-registry.sh
 ```
